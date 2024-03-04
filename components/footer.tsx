@@ -9,9 +9,8 @@ export default function Footer() {
       <p className="text-xs">
         <span className="font-semibold">About this website:</span> built with
         React & Next.js (App Router & Server Actions), TypeScript, Tailwind CSS,
-        Framer Motion, React Email & Resend, Vercel hosting.
+        Framer Motion, React Email & Resend. <a target="_blank" href="https://icons8.com/icon/z2aUKYy5MOgf/programmer">Programmer</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
       </p>
-      <a href="https://www.flaticon.com/free-icons/programmer" title="programmer icons">Programmer icons created by IconBaandar - Flaticon</a>
     </footer>
   );
 }
