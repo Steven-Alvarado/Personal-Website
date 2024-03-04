@@ -83,8 +83,12 @@ export const projectsData = [
     imageUrl: wordanalyticsImg,
   },
 ] as const;
-
 export const skillsData = [
+  "C/C++",
+  "Python",
+  "Bash",
+  "GNU/Linux",
+  "Git",
   "HTML",
   "CSS",
   "JavaScript",
@@ -92,16 +96,7 @@ export const skillsData = [
   "React",
   "Next.js",
   "Node.js",
-  "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
   "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
 ] as const;
