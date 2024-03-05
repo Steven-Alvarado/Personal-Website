@@ -1,10 +1,10 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+//import { CgWorkAlt } from "react-icons/cg";
+//import { FaReact } from "react-icons/fa";
+//import { LuGraduationCap } from "react-icons/lu";
+import satelliteImg from "@/public/satellite.png";
+import globaltempImg from "@/public/globaltemp.png";
+import lexicalImg from "@/public/lexical.png";
 
 export const links = [
   {
@@ -22,25 +22,20 @@ export const links = [
   {
     name: "Skills",
     hash: "#skills",
-  },
-  {
-    name: "Experience",
-    hash: "#experience",
-  },
+  }, 
   {
     name: "Contact",
     hash: "#contact",
   },
 ] as const;
 
-export const experiencesData = [
+/* export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
-    description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+    title: "",
+    location: "",
+    description: "",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "",
   },
   {
     title: "Front-End Developer",
@@ -58,29 +53,30 @@ export const experiencesData = [
     icon: React.createElement(FaReact),
     date: "2021 - present",
   },
-] as const;
 
+] as const;
+*/
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Space Satellite Coordinator",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Hackathon - Girlhacks NJIT 2023 \"best use of streamlit\" winner - Streamlit web application that harnessed N2YO API to provide users with real-time data on the ten closest satellites to any location",
+    tags: ["Python", "Streamlit"],
+    imageUrl: satelliteImg,
   },
   {
-    title: "rmtDev",
+    title: "Global Temperature Analysis",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Analyzed global temperature trends from 1850 to 2015 using UC Berkeley's dataset. Trained linear and random forest regression models for complex pattern recognition.",
+    tags: ["Pandas", "Scikit-learn", "Matplotlib", "Python", "Machine Learning"],
+    imageUrl: globaltempImg,
   },
   {
-    title: "Word Analytics",
+    title: "Lexical Analyzer, Parser, and Interpreter",
     description:
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: lexicalImg,
   },
 ] as const;
 export const skillsData = [
@@ -98,5 +94,5 @@ export const skillsData = [
   "Node.js",
   "Tailwind",
   "MongoDB",
-  "PostgreSQL",
+  "SQL",
 ] as const;
