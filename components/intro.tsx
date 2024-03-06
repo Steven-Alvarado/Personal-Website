@@ -86,7 +86,6 @@ export default function Intro() {
           }}
         >
           Contact me here{" "}
-          <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 
         <a
