@@ -38,22 +38,13 @@ export const links = [
     date: "",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: 
+    location: 
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: 
   },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
-  },
-
+  
 ] as const;
 */
 export const projectsData = [
@@ -68,14 +59,14 @@ export const projectsData = [
     title: "Global Temperature Analysis",
     description:
       "Analyzed global temperature trends from 1850 to 2015 using UC Berkeley's dataset. Trained linear and random forest regression models for complex pattern recognition.",
-    tags: ["Pandas", "Scikit-learn", "Matplotlib", "Python", "Machine Learning"],
+    tags: [ "Python", "Machine Learning"],
     imageUrl: globaltempImg,
   },
   {
     title: "Lexical Analyzer, Parser, and Interpreter",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "Developed lexical analyzer in C++, implementing regular expressions and finite automata techniques to efficiently tokenize source code for a Perl-like language",
+    tags: ["C++", "Parsing", "Lexical Analyzer"],
     imageUrl: lexicalImg,
   },
 ] as const;
@@ -85,14 +76,12 @@ export const skillsData = [
   "Bash",
   "GNU/Linux",
   "Git",
+  "SQL",	
   "HTML",
   "CSS",
   "JavaScript",
   "TypeScript",
-  "React",
-  "Next.js",
   "Node.js",
   "Tailwind",
   "MongoDB",
-  "SQL",
 ] as const;

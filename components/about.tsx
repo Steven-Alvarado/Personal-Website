@@ -19,25 +19,23 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        I&apos;m a junior studying{" "}
-        <span className="font-medium">Computer Science. </span>I have a passion
-        passion for software developing and cybersecurity/IT.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        designing and problem-solving process. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
+        I&apos;m currently a junior. {" "}
+        <span className="font-medium"></span>I have a passion
+        for software developing and cybersecurity.{" "}
+        <span className="italic">My favorite part of programming and cybersecurity</span><span className="mb-3"> is the
+        designing and problem-solving process. I have an iclination to understand systems and provide scalable solutions</span> driven by the idea of developing secure and efficient 
+        software to <span className="underline">solve real-world problems.</span>{" "}
         <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">internship position</span> as a software
-        developer or cybersecurity researcher.
+
+        </span> I am always looking to
+        learn new technologies. I am currently looking for an{" "}
+        <span className="font-medium">internship position</span> in the software
+        development or cybersecurity field.
       </p>
 
       <p>
         <span className="italic">When I&apos;m not coding</span>, I enjoy being outdoors, music, and reading. I also enjoy{" "}
-        <span className="font-medium">learning new things and am always excited to take on challenges whether its tech-related or hobby-related.</span>.
+        <span className="font-medium">learning new things and am always excited to take on challenges</span>.
         {" "}
         <span className="font-medium"></span>
       </p>
