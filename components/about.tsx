@@ -23,7 +23,7 @@ export default function About() {
         <span className="font-medium"></span>I have a passion
         for software developing and cybersecurity.{" "}
         <span className="italic">My favorite part of programming and cybersecurity</span><span className="mb-3"> is the
-        designing and problem-solving process. I have an iclination to understand systems and provide scalable solutions</span> driven by the idea of developing secure and efficient 
+        designing and problem-solving process. I have an inclination to understand systems and provide scalable solutions</span> driven by the idea of developing secure and efficient 
         software to <span className="underline">solve real-world problems.</span>{" "}
         <span className="font-medium">
 
