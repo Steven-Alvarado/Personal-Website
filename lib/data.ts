@@ -71,7 +71,8 @@ export const projectsData = [
   },
 ] as const;
 export const skillsData = [
-  "C/C++",
+  "C",
+  "C++",
   "Python",
   "Bash",
   "GNU/Linux",
@@ -80,8 +81,7 @@ export const skillsData = [
   "HTML",
   "CSS",
   "JavaScript",
-  "TypeScript",
-  "Node.js",
+  "Next.js",
   "Tailwind",
   "MongoDB",
 ] as const;
